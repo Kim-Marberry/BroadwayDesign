@@ -15,6 +15,11 @@ p{
   font-size: 14px;
 }
 
+a{
+  font-size: 18px;
+  color: white;
+}
+
 #header,
 #seperator{
   color: white;
@@ -25,11 +30,16 @@ p{
   font-size: 70px
 }
 
-a{
-  font-size: 18px;
+#footer{
   color: white;
+  background-color: dimgray;
+}
+
+#footer #footer-paragraph{
+  text-align: left;
 }
 
 #header ul{
+  padding-left: 0px;
   list-style-type: none;
 }
